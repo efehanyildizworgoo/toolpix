@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "title": "Toolpix — Kostenlose Online-Mikro-Tools",
+    "description": "Rechner, Entwickler-Tools, Text-Tools und mehr. Komplett kostenlos, browserbasierte Mikro-Tools."
+  },
+  "nav": {
+    "home": "Startseite",
+    "calculators": "Rechner",
+    "devtools": "Entwickler-Tools",
+    "texttools": "Text-Tools",
+    "directories": "Verzeichnisse",
+    "allTools": "Alle Tools"
+  },
+  "hero": {
+    "badge": "Kostenlose Mikro-Tools",
+    "title": "Das Tool, das du brauchst — nur einen Klick entfernt.",
+    "subtitle": "Rechner, Entwickler-Tools, Textkonverter und mehr. Keine Registrierung erforderlich, komplett kostenlos.",
+    "search": "Tool suchen...",
+    "cta": "Alle Tools entdecken"
+  },
+  "categories": {
+    "calculators": {
+      "title": "Rechner",
+      "desc": "Brutto-Netto, Krypto-Durchschnitt, Freelancer-Stundensatz und mehr."
+    },
+    "devtools": {
+      "title": "Entwickler-Tools",
+      "desc": "CSS Box-Shadow Generator, JSON Formatter, SVG-to-PNG, AI Prompt Builder."
+    },
+    "texttools": {
+      "title": "Text-Tools",
+      "desc": "WhatsApp-Link-Generator, Schriftarten-Konverter, Wortzähler, Pomodoro."
+    },
+    "directories": {
+      "title": "Verzeichnisse & Listen",
+      "desc": "Kostenloses Tool-Verzeichnis, KI-Tools-Katalog."
+    }
+  },
+  "tools": {
+    "salary": {
+      "title": "Gehaltsrechner",
+      "desc": "Brutto-Netto-Gehaltsrechner. Steuern und Abzüge sofort anzeigen.",
+      "gross": "Bruttogehalt (€)",
+      "net": "Nettogehalt",
+      "tax": "Einkommensteuer",
+      "sgk": "Sozialversicherung",
+      "stamp": "Solidaritätszuschlag",
+      "calculate": "Berechnen",
+      "result": "Ergebnis"
+    },
+    "cryptoAvg": {
+      "title": "Krypto-Durchschnittskostenrechner",
+      "desc": "Berechnen Sie Ihre durchschnittlichen Kosten mit aktuellen und neuen Kaufpreisen.",
+      "currentPrice": "Aktueller Kaufpreis",
+      "currentQty": "Aktuelle Menge",
+      "newPrice": "Neuer Kaufpreis",
+      "newQty": "Neue Menge",
+      "avgPrice": "Durchschnittspreis",
+      "totalQty": "Gesamtmenge",
+      "totalCost": "Gesamtinvestition"
+    },
+    "freelancerRate": {
+      "title": "Freelancer-Stundensatzrechner",
+      "desc": "Erfahren Sie, welchen Stundensatz Sie basierend auf Ihren Ausgaben verlangen sollten.",
+      "monthlyExpenses": "Monatliche Ausgaben (€)",
+      "desiredProfit": "Gewünschter Gewinn (€)",
+      "hoursPerWeek": "Arbeitsstunden pro Woche",
+      "hourlyRate": "Stundensatz"
+    },
+    "jsonFormatter": {
+      "title": "JSON Formatter",
+      "desc": "Komplexe JSON-Daten in lesbares Format konvertieren.",
+      "input": "JSON Eingabe",
+      "output": "Formatierte Ausgabe",
+      "format": "Formatieren",
+      "minify": "Minimieren",
+      "copy": "Kopieren",
+      "copied": "Kopiert!",
+      "error": "Ungültiges JSON"
+    },
+    "whatsappLink": {
+      "title": "WhatsApp-Link-Generator",
+      "desc": "Erstellen Sie einen Direktnachricht-Link ohne Nummer zu speichern.",
+      "phone": "Telefonnummer",
+      "message": "Nachricht (optional)",
+      "generate": "Link erstellen",
+      "generatedLink": "Erstellter Link",
+      "open": "In WhatsApp öffnen"
+    },
+    "charCounter": {
+      "title": "Wort- & Zeichenzähler",
+      "desc": "Sofort Wörter, Zeichen, Sätze und Absätze Ihres Textes anzeigen.",
+      "placeholder": "Text hier einfügen...",
+      "chars": "Zeichen",
+      "words": "Wörter",
+      "sentences": "Sätze",
+      "paragraphs": "Absätze"
+    }
+  },
+  "common": {
+    "copy": "Kopieren",
+    "copied": "Kopiert!",
+    "clear": "Löschen",
+    "calculate": "Berechnen",
+    "result": "Ergebnis",
+    "backHome": "Zurück zur Startseite",
+    "madeWith": "Erstellt mit Toolpix",
+    "footer": "Kostenlose Online-Tools. Keine Registrierung erforderlich.",
+    "ad": "Werbefläche"
+  }
+}
