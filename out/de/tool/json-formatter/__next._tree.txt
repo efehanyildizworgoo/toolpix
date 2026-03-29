@@ -1,4 +1,0 @@
-:HL["/_next/static/chunks/04xw8xryj_yvh.css","style"]
-:HL["/_next/static/chunks/0gjs-dez7_2fn.css","style"]
-:HC["/",""]
-0:{"tree":{"name":"","param":null,"prefetchHints":16,"slots":{"children":{"name":"lang","param":{"type":"d","key":"de","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"tool","param":null,"prefetchHints":0,"slots":{"children":{"name":"slug","param":{"type":"d","key":"json-formatter","siblings":null},"prefetchHints":0,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":0,"slots":null}}}}}}}}},"staleTime":300,"buildId":"xWYl89VdXzK7aJ8zMV2R4"}
