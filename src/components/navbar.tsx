@@ -12,7 +12,7 @@ import {
   faCalculator,
   faCode,
   faFont,
-  faList,
+  faClock,
 } from "@fortawesome/free-solid-svg-icons";
 import type { Locale } from "@/lib/i18n";
 import { locales, getLocaleName } from "@/lib/i18n";
@@ -24,10 +24,10 @@ interface NavbarProps {
 }
 
 const NAV_CATEGORIES = [
-  { key: "calculators" as const, icon: faCalculator },
-  { key: "devtools" as const, icon: faCode },
   { key: "texttools" as const, icon: faFont },
-  { key: "directories" as const, icon: faList },
+  { key: "calculators" as const, icon: faCalculator },
+  { key: "time" as const, icon: faClock },
+  { key: "devtools" as const, icon: faCode },
 ];
 
 export function Navbar({ lang, dict }: NavbarProps) {

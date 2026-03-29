@@ -21,9 +21,10 @@ export async function generateStaticParams() {
 export async function generateMetadata({
   params,
 }: {
-  params: Promise<{ lang: Locale; slug: string }>;
+  params: Promise<{ lang: string; slug: string }>;
 }): Promise<Metadata> {
-  const { lang, slug } = await params;
+  const { lang: rawLang, slug } = await params;
+  const lang = rawLang as Locale;
   const dict = await getDictionary(lang);
   const catDict = dict.categories[slug as ToolCategory];
   return {
@@ -35,9 +36,10 @@ export async function generateMetadata({
 export default async function CategoryPage({
   params,
 }: {
-  params: Promise<{ lang: Locale; slug: string }>;
+  params: Promise<{ lang: string; slug: string }>;
 }) {
-  const { lang, slug } = await params;
+  const { lang: rawLang, slug } = await params;
+  const lang = rawLang as Locale;
   const dict = await getDictionary(lang);
   const category = CATEGORIES.find((c) => c.slug === slug);
   const tools = getToolsByCategory(slug as ToolCategory);

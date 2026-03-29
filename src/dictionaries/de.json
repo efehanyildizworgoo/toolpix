@@ -8,7 +8,7 @@
     "calculators": "Rechner",
     "devtools": "Entwickler-Tools",
     "texttools": "Text-Tools",
-    "directories": "Verzeichnisse",
+    "time": "Zeit-Tools",
     "allTools": "Alle Tools"
   },
   "hero": {
@@ -21,32 +21,96 @@
   "categories": {
     "calculators": {
       "title": "Rechner",
-      "desc": "Brutto-Netto, Krypto-Durchschnitt, Freelancer-Stundensatz und mehr."
+      "desc": "Prozent, MwSt, Krypto-Durchschnitt, Freelancer-Stundensatz, Trinkgeld und Gehalt."
     },
     "devtools": {
       "title": "Entwickler-Tools",
-      "desc": "CSS Box-Shadow Generator, JSON Formatter, SVG-to-PNG, AI Prompt Builder."
+      "desc": "Passwort-Generator, QR-Code, WhatsApp-Link, Farbkonverter, Base64, JSON Formatter."
     },
     "texttools": {
       "title": "Text-Tools",
-      "desc": "WhatsApp-Link-Generator, Schriftarten-Konverter, Wortzähler, Pomodoro."
+      "desc": "Fancy Text, Groß-/Kleinschreibung, Leerzeichen entfernen, Text umkehren, SEO Meta, Zeichenzähler."
     },
-    "directories": {
-      "title": "Verzeichnisse & Listen",
-      "desc": "Kostenloses Tool-Verzeichnis, KI-Tools-Katalog."
+    "time": {
+      "title": "Zeit-Tools",
+      "desc": "Datumsunterschied, Altersrechner, Zeitzonen-Konverter, Pomodoro-Timer."
     }
   },
   "tools": {
-    "salary": {
-      "title": "Gehaltsrechner",
-      "desc": "Brutto-Netto-Gehaltsrechner. Steuern und Abzüge sofort anzeigen.",
-      "gross": "Bruttogehalt (€)",
-      "net": "Nettogehalt",
-      "tax": "Einkommensteuer",
-      "sgk": "Sozialversicherung",
-      "stamp": "Solidaritätszuschlag",
-      "calculate": "Berechnen",
-      "result": "Ergebnis"
+    "fancyText": {
+      "title": "Fancy Text Generator",
+      "desc": "Verwandeln Sie Ihren Text in coole Unicode-Zeichen für Instagram, TikTok oder Spiele.",
+      "input": "Text eingeben",
+      "article": ""
+    },
+    "caseConverter": {
+      "title": "Groß-/Kleinschreibung Konverter",
+      "desc": "Text in Großbuchstaben, Kleinbuchstaben, Titelschreibweise und Satzschreibweise umwandeln.",
+      "input": "Text eingeben",
+      "upper": "GROSSBUCHSTABEN",
+      "lower": "kleinbuchstaben",
+      "titleCase": "Titelschreibweise",
+      "sentenceCase": "Satzschreibweise",
+      "article": ""
+    },
+    "whitespaceRemover": {
+      "title": "Leerzeichen Entferner",
+      "desc": "Überflüssige Leerzeichen und Zeilenumbrüche aus kopierten Texten entfernen.",
+      "input": "Text einfügen",
+      "removeExtraSpaces": "Extra Leerzeichen entfernen",
+      "removeLineBreaks": "Zeilenumbrüche entfernen",
+      "removeAllSpaces": "Alle Leerzeichen entfernen",
+      "article": ""
+    },
+    "reverseText": {
+      "title": "Text Umkehrer",
+      "desc": "Schreiben Sie Ihren Text rückwärts. Perfekt für Spaß und virale Inhalte.",
+      "input": "Text eingeben",
+      "reversed": "Umgekehrt",
+      "article": ""
+    },
+    "seoMeta": {
+      "title": "SEO Meta-Tag Generator",
+      "desc": "Automatisch Title- und Description-Meta-Tags für Ihre Website erstellen.",
+      "siteTitle": "Seitentitel",
+      "siteDesc": "Seitenbeschreibung",
+      "siteUrl": "Seiten-URL",
+      "generate": "Tags erstellen",
+      "output": "Meta-Tags",
+      "article": ""
+    },
+    "charCounter": {
+      "title": "Wort- & Zeichenzähler",
+      "desc": "Sofort Wörter, Zeichen, Sätze und Absätze Ihres Textes anzeigen.",
+      "placeholder": "Text hier einfügen...",
+      "chars": "Zeichen",
+      "words": "Wörter",
+      "sentences": "Sätze",
+      "paragraphs": "Absätze",
+      "article": ""
+    },
+    "percentage": {
+      "title": "Prozentrechner",
+      "desc": "Schnelle Prozentberechnungen, Steigerungs-/Senkungsraten und proportionale Berechnungen.",
+      "valueA": "Zahl",
+      "valueB": "Prozent (%)",
+      "result": "Ergebnis",
+      "whatPercent": "Was ist B% von A?",
+      "percentOf": "A ist wie viel % von B?",
+      "percentChange": "% Änderung von A nach B?",
+      "article": ""
+    },
+    "vat": {
+      "title": "MwSt-Rechner",
+      "desc": "MwSt zu einem Betrag hinzufügen oder MwSt aus einem Bruttobetrag herausrechnen.",
+      "amount": "Betrag (€)",
+      "vatRate": "MwSt-Satz (%)",
+      "addVat": "MwSt hinzufügen",
+      "removeVat": "MwSt herausrechnen",
+      "netAmount": "Nettobetrag",
+      "vatAmount": "MwSt-Betrag",
+      "grossAmount": "Bruttobetrag",
+      "article": ""
     },
     "cryptoAvg": {
       "title": "Krypto-Durchschnittskostenrechner",
@@ -57,7 +121,8 @@
       "newQty": "Neue Menge",
       "avgPrice": "Durchschnittspreis",
       "totalQty": "Gesamtmenge",
-      "totalCost": "Gesamtinvestition"
+      "totalCost": "Gesamtinvestition",
+      "article": ""
     },
     "freelancerRate": {
       "title": "Freelancer-Stundensatzrechner",
@@ -65,7 +130,119 @@
       "monthlyExpenses": "Monatliche Ausgaben (€)",
       "desiredProfit": "Gewünschter Gewinn (€)",
       "hoursPerWeek": "Arbeitsstunden pro Woche",
-      "hourlyRate": "Stundensatz"
+      "hourlyRate": "Stundensatz",
+      "article": ""
+    },
+    "tipCalc": {
+      "title": "Trinkgeldrechner",
+      "desc": "Rechnung nach Personenzahl und Trinkgeldprozentsatz aufteilen.",
+      "billAmount": "Rechnungsbetrag",
+      "tipPercent": "Trinkgeld (%)",
+      "numPeople": "Anzahl Personen",
+      "tipAmount": "Trinkgeldbetrag",
+      "totalAmount": "Gesamtbetrag",
+      "perPerson": "Pro Person",
+      "article": ""
+    },
+    "salary": {
+      "title": "Gehaltsrechner",
+      "desc": "Brutto-Netto-Gehaltsrechner. Steuern und Abzüge sofort anzeigen.",
+      "gross": "Bruttogehalt (€)",
+      "net": "Nettogehalt",
+      "tax": "Einkommensteuer",
+      "sgk": "Sozialversicherung",
+      "stamp": "Solidaritätszuschlag",
+      "calculate": "Berechnen",
+      "result": "Ergebnis",
+      "article": ""
+    },
+    "dateDiff": {
+      "title": "Datumsunterschied-Rechner",
+      "desc": "Berechnen Sie die Anzahl der Tage, Monate und Jahre zwischen zwei Daten.",
+      "startDate": "Startdatum",
+      "endDate": "Enddatum",
+      "days": "Tage",
+      "months": "Monate",
+      "years": "Jahre",
+      "article": ""
+    },
+    "ageCalc": {
+      "title": "Altersrechner",
+      "desc": "Geben Sie Ihr Geburtsdatum ein und sehen Sie, wie viele Jahre, Monate, Tage und Stunden Sie leben.",
+      "birthDate": "Geburtsdatum",
+      "yourAge": "Ihr Alter",
+      "years": "Jahre",
+      "months": "Monate",
+      "days": "Tage",
+      "hours": "Stunden",
+      "article": ""
+    },
+    "timezone": {
+      "title": "Zeitzonen-Konverter",
+      "desc": "Konvertieren Sie die Zeit von einer Zeitzone in eine andere.",
+      "sourceTime": "Quellzeit",
+      "sourceZone": "Quell-Zeitzone",
+      "targetZone": "Ziel-Zeitzone",
+      "convertedTime": "Konvertierte Zeit",
+      "article": ""
+    },
+    "pomodoro": {
+      "title": "Online Pomodoro-Timer",
+      "desc": "25 Minuten fokussieren, 5 Minuten Pause. Produktive Arbeitstechnik.",
+      "work": "Arbeit",
+      "break": "Pause",
+      "start": "Start",
+      "pause": "Pause",
+      "reset": "Zurücksetzen",
+      "round": "Runde",
+      "article": ""
+    },
+    "passwordGen": {
+      "title": "Passwort-Generator",
+      "desc": "Starke, schwer zu knackende Passwörter mit anpassbarer Länge und Zeichenoptionen generieren.",
+      "length": "Passwortlänge",
+      "uppercase": "Großbuchstaben (A-Z)",
+      "lowercase": "Kleinbuchstaben (a-z)",
+      "numbers": "Zahlen (0-9)",
+      "symbols": "Symbole (!@#$)",
+      "generate": "Passwort generieren",
+      "article": ""
+    },
+    "qrCode": {
+      "title": "QR-Code Generator",
+      "desc": "Link oder Text in einen QR-Code umwandeln und als PNG herunterladen.",
+      "input": "Link oder Text",
+      "generate": "QR-Code erstellen",
+      "download": "PNG herunterladen",
+      "article": ""
+    },
+    "whatsappLink": {
+      "title": "WhatsApp-Link-Generator",
+      "desc": "Erstellen Sie einen Direktnachricht-Link ohne Nummer zu speichern.",
+      "phone": "Telefonnummer",
+      "message": "Nachricht (optional)",
+      "generate": "Link erstellen",
+      "generatedLink": "Erstellter Link",
+      "open": "In WhatsApp öffnen",
+      "article": ""
+    },
+    "colorConverter": {
+      "title": "Farbcode-Konverter",
+      "desc": "Sofortige Konvertierung zwischen HEX, RGB und HSL Farbformaten.",
+      "hex": "HEX",
+      "rgb": "RGB",
+      "hsl": "HSL",
+      "preview": "Vorschau",
+      "article": ""
+    },
+    "base64": {
+      "title": "Base64 Encode / Decode",
+      "desc": "Text in Base64-Format konvertieren oder Base64 zurück in Text dekodieren.",
+      "input": "Eingabe",
+      "output": "Ausgabe",
+      "encode": "Encode",
+      "decode": "Decode",
+      "article": ""
     },
     "jsonFormatter": {
       "title": "JSON Formatter",
@@ -76,25 +253,8 @@
       "minify": "Minimieren",
       "copy": "Kopieren",
       "copied": "Kopiert!",
-      "error": "Ungültiges JSON"
-    },
-    "whatsappLink": {
-      "title": "WhatsApp-Link-Generator",
-      "desc": "Erstellen Sie einen Direktnachricht-Link ohne Nummer zu speichern.",
-      "phone": "Telefonnummer",
-      "message": "Nachricht (optional)",
-      "generate": "Link erstellen",
-      "generatedLink": "Erstellter Link",
-      "open": "In WhatsApp öffnen"
-    },
-    "charCounter": {
-      "title": "Wort- & Zeichenzähler",
-      "desc": "Sofort Wörter, Zeichen, Sätze und Absätze Ihres Textes anzeigen.",
-      "placeholder": "Text hier einfügen...",
-      "chars": "Zeichen",
-      "words": "Wörter",
-      "sentences": "Sätze",
-      "paragraphs": "Absätze"
+      "error": "Ungültiges JSON",
+      "article": ""
     }
   },
   "common": {
@@ -106,6 +266,7 @@
     "backHome": "Zurück zur Startseite",
     "madeWith": "Erstellt mit Toolpix",
     "footer": "Kostenlose Online-Tools. Keine Registrierung erforderlich.",
-    "ad": "Werbefläche"
+    "ad": "Werbefläche",
+    "seoArticle": "Über dieses Tool"
   }
 }
